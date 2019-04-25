@@ -1,3 +1,19 @@
-# Static
+# Staticchek to Junit Xml
 
-`pyinstaller --onefile <your_script_name>.py`
+### Requirements
+
+- python3
+- pip3
+- pyinstaller
+- pathlib
+- junit_xml_output
+
+```bash
+pyinstaller --onefile main.py
+```
+
+## Usage
+
+```bash
+staticchek-to-junit --file_pattern=$(*).last.static
+```
